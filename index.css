@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #260101
+}
+
+button {
+    background-color: #730707;
+    border: 1px solid #131111;
+    height: 100px;
+    width: 250px;
+    font-size: 40px;
+}
+
+button:hover {
+    color: white;
+    background: #000000;
+}
+
+button:active {
+    background: #000;
+    color: #730707;
+}
+
+#TextoResultado {
+    position: absolute;
+    top: 43.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
+#TextoDado {
+    display: contents;
+}
