@@ -5,16 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rolar Dados Sulyvahn</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="index.css">
     <link rel="Shortcut Icon" type="image/png" href="imagem_2023-06-20_195344666-removebg-preview.png">
 </head>
 
 <body>
     <div id="TextoDado">
-        <img id="ImagemDado" src="https://cdn.discordapp.com/attachments/779807771348566019/1120888464653684816/imagem_2023-06-20_195344666-removebg-preview.png" alt="Icone Rolar Dado"
+        <img id="ImagemDado" src="/imagem_2023-06-20_195344666-removebg-preview.png" alt="Icone Rolar Dado"
             oncontextmenu="return false;">
         <p id="TextoResultado">20</p>
-        <button onclick="resultado20()">Rolar Dado</button>
+        <section>
+            <button id="rolar">Rolar Dado</button>
+            <select name="dado" id="dado">
+                <option value="option01">d100</option>
+                <option value="option02">d50</option>
+                <option value="option03">d20</option>
+                <option value="option04">d12</option>
+                <option value="option05">d10</option>
+                <option value="option06">d8</option>
+                <option value="option07">d6</option>
+                <option value="option08">d4</option>
+            </select>
+        </section>
     </div>
     <script src="index.js"></script>
 </body>
